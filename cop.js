@@ -105,7 +105,7 @@ function updateMapMarkers(hospitalData) {
                 <p>${hospital.address}</p>
                 <p>Resources: ${hospital.resources}</p>
                 <p>Address: ${hospital.address}</p>
-                <p>Phone no: ${hospital.phone} Email: ${hospital.email}</p>
+                <p>Phone no: ${hospital.phone} Email: ${hospital.email}git</p>
             `))
             .addTo(map);
     });
