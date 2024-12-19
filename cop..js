@@ -76,30 +76,7 @@ if (navigator.geolocation) {
     alert('Geolocation is not supported by your browser.');
 }
 
-// Sample data for hospital information (this can be replaced by an API call)
-const hospitalData = [
-    { name: "Amrita Ayurveda Hospital", address: "3FVV+2RQ, Vallikavu, Kerala 690546", 
-    resources: "beds_available: 10, oxygen_cylinders: 20, ventilators: 10", 
-    coordinates: [76.49288,9.08821], phone:"9925462210", email: "amritaayurvedahospital@gmail.com"
-     },
 
-    { name: "Mission Hospital",
-        address: "Bus Stop, Decent Junction, Kollam-Ayoor Rd, near Decent junction, Decent Jun, Palathara, Kollam, Kerala 691577", 
-        resources: "beds_available: 50, oxygen_cylinders: 30, ventilators: 10",
-        coordinates: [76.59277,8.88801], phone: "0476 269 0770",
-         email: "mission.hospital.chk@gmail.com" },
-    
-    { name: "District TB centre", 
-        address: "Kollam Bypass, Road, PO, Palathara, Thattamala, Kollam, Kerala 691020", 
-        resources: "beds_available: 4, oxygen_cylinders: 10, ventilators: 12", 
-        coordinates: [76.58831,8.88811],phone:"0476 262 0277",
-         email: "districttb.center.klm@gmail.com" },
-    { name: "Government Victoria Hospital", 
-        address: "Kollam Bypass, Road, Kollam, Kerala 691020", 
-        resources: "beds_available: 40, oxygen_cylinders: 100, ventilators: 112", 
-        coordinates: [76.58521,8.88752],phone:"7706 262 0277",
-        email: "govthosp.victoria.klm@gmail.com" }
-];
 // Fetch hospital data and dynamically populate the app
 
 function updateMapMarkers(hospitalData) {
