@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 
                 setTimeout(() => {
-                    window.location.href = 'cop.html'; 
+                    window.location.href = 'index.html'; 
                 }, 2000);
             } catch (error) {
                 const errorCode = error.code;
